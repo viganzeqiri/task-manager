@@ -123,7 +123,6 @@ export default function AuthForm({ mode }: { mode: "register" | "signin" }) {
             <div>
               <span>
                 <Link
-                  prefetch
                   href={content.linkUrl}
                   className="text-blue-600 font-bold"
                 >

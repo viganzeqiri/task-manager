@@ -8,7 +8,7 @@ export default function GlassPane({ children, className }: IProps) {
   return (
     <div
       className={clsx(
-        "glass rounded-2xl border-2 border-solid border-gray-200",
+        "glass rounded-3xl border-2 border-solid border-gray-200",
         className
       )}
     >
